@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'minhafonte';
+    src: url(/fonts/FredokaOne-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    
+    
+}
+
+main {
+    background-color: rgb(42, 34, 56);
+    display: flex;
+}
+
+.texto-esquerda {
+    width: 50vw;
+    height: 30vh;
+    display: flex;
+    color: #f14af1;
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    
+
+}
+
+#direita {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.imagem {
+   margin: 0;
+   position: relative;
+   bottom: 45px;
+   left: 200px;
+}
+
+.formulario {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:#ffffff;
+    width: 60%;
+    background: #6c4a9248;
+    border-radius: 20px;
+   box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.342);
+   font-weight: 10;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.name {
+    padding: 20px;
+}
+
+.email {
+    padding: 20px;
+}
+
+.senha {
+    padding: 20px;
+}
+
+.formulario > h1 {
+    font-weight: 50;
+    color: rgb(128, 17, 255);
+    margin: 0;
+    
+}
+
+.textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.textarea > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #8c81ce;
+    color: white;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.363);
+    outline: none;
+    box-sizing: border-box;
+    
+}
+
+.botao > input {
+    width: 100%;
+    padding: 16px 5px;
+    margin: 25px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-weight: 800;
+    font-size: 12pt;
+    position: relative;
+    right: 25px;
+    color: #00ffd5;
+    background: #6a59c9;
+    
+}
+
